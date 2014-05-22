@@ -21,6 +21,8 @@
 		C42A1456192E9BA200626A20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42A1438192E9BA200626A20 /* UIKit.framework */; };
 		C42A145E192E9BA200626A20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C42A145C192E9BA200626A20 /* InfoPlist.strings */; };
 		C42A1460192E9BA200626A20 /* Assessment2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A145F192E9BA200626A20 /* Assessment2Tests.m */; };
+		C42A146E192E9C8300626A20 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = C42A146D192E9C8300626A20 /* City.m */; };
+		C4EEA9B4192EA2C700E767AA /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EEA9B3192EA2C700E767AA /* CityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		C42A145B192E9BA200626A20 /* Assessment2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assessment2Tests-Info.plist"; sourceTree = "<group>"; };
 		C42A145D192E9BA200626A20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C42A145F192E9BA200626A20 /* Assessment2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assessment2Tests.m; sourceTree = "<group>"; };
+		C42A146C192E9C8300626A20 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		C42A146D192E9C8300626A20 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		C4EEA9B2192EA2C700E767AA /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		C4EEA9B3192EA2C700E767AA /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,8 @@
 		C42A1428192E9BA200626A20 = {
 			isa = PBXGroup;
 			children = (
+				C42A146C192E9C8300626A20 /* City.h */,
+				C42A146D192E9C8300626A20 /* City.m */,
 				C42A143A192E9BA200626A20 /* Assessment2 */,
 				C42A1459192E9BA200626A20 /* Assessment2Tests */,
 				C42A1433192E9BA200626A20 /* Frameworks */,
@@ -115,6 +123,8 @@
 				C42A1443192E9BA200626A20 /* AppDelegate.h */,
 				C42A1444192E9BA200626A20 /* AppDelegate.m */,
 				C42A1446192E9BA200626A20 /* Main.storyboard */,
+				C4EEA9B2192EA2C700E767AA /* CityViewController.h */,
+				C4EEA9B3192EA2C700E767AA /* CityViewController.m */,
 				C42A1449192E9BA200626A20 /* ViewController.h */,
 				C42A144A192E9BA200626A20 /* ViewController.m */,
 				C42A144C192E9BA200626A20 /* Images.xcassets */,
@@ -251,6 +261,8 @@
 			files = (
 				C42A144B192E9BA200626A20 /* ViewController.m in Sources */,
 				C42A1445192E9BA200626A20 /* AppDelegate.m in Sources */,
+				C4EEA9B4192EA2C700E767AA /* CityViewController.m in Sources */,
+				C42A146E192E9C8300626A20 /* City.m in Sources */,
 				C42A1441192E9BA200626A20 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +468,7 @@
 				C42A1465192E9BA200626A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C42A1466192E9BA200626A20 /* Build configuration list for PBXNativeTarget "Assessment2Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				C42A1468192E9BA200626A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
